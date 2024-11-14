@@ -1132,7 +1132,7 @@ local function get_groups()
     ["@attribute"] = { link = "PreProc" },
     ["@field"] = { link = "Identifier" },
     ["@property"] = { link = "Identifier" },
-    ["@variable"] = { fg = colors.blue },
+    ["@variable"] = { fg = colors.green },
     ["@variable.builtin"] = { fg = colors.green },
     ["@variable.member"] = { fg = colors.green },
     ["@variable.parameter"] = { fg = colors.blue },
