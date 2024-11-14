@@ -1134,7 +1134,7 @@ local function get_groups()
     ["@property"] = { link = "Identifier" },
     ["@variable"] = { fg = colors.green },
     ["@variable.builtin"] = { fg = colors.green },
-    ["@variable.member"] = { fg = colors.green },
+    ["@variable.member"] = { fg = colors.red },
     ["@variable.parameter"] = { fg = colors.blue },
     ["@constant"] = { link = "Constant" },
     ["@constant.builtin"] = { link = "Special" },
