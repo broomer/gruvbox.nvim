@@ -61,7 +61,7 @@ Gruvbox.config = {
   invert_tabline = false,
   invert_intend_guides = false,
   inverse = true,
-  contrast = "soft",
+  contrast = "hard",
   palette_overrides = {},
   overrides = {},
   dim_inactive = false,
@@ -124,7 +124,7 @@ Gruvbox.palette = {
   light_aqua_hard = "#e6e9c1",
   light_aqua = "#e8e5b5",
   light_aqua_soft = "#e1dbac",
-  gray = "#FF58F9",
+  gray = "#917390",
 }
 
 -- get a hex list of gruvbox colors based on current bg and constrast config
@@ -328,7 +328,7 @@ local function get_groups()
     iCursor = { link = "Cursor" },
     lCursor = { link = "Cursor" },
     Special = { link = "GruvboxOrange" },
-    Comment = { fg = colors.gray, italic = config.italic.comments },
+    Comment = { fg = colors.dark2, italic = config.italic.comments },
     Todo = { fg = colors.bg0, bg = colors.yellow, bold = config.bold, italic = config.italic.comments },
     Done = { fg = colors.orange, bold = config.bold, italic = config.italic.comments },
     Error = { fg = colors.red, bold = config.bold, reverse = config.inverse },
