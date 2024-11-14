@@ -1132,7 +1132,7 @@ local function get_groups()
     ["@attribute"] = { link = "PreProc" },
     ["@field"] = { link = "Identifier" },
     ["@property"] = { link = "Identifier" },
-    ["@variable"] = { link = "GruvboxFg1" },
+    ["@variable"] = { fg = colors.blue },
     ["@variable.builtin"] = { link = "Special" },
     ["@variable.member"] = { link = "Identifier" },
     ["@variable.parameter"] = { link = "Identifier" },
