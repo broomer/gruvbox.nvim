@@ -1130,7 +1130,7 @@ local function get_groups()
     ["@type.qualifier"] = { link = "Type" },
     ["@storageclass"] = { link = "StorageClass" },
     ["@attribute"] = { link = "PreProc" },
-    ["@field"] = { link = "Identifier" },
+    -- ["@field"] = { link = "Identifier" },
     -- ["@property"] = { link = "Identifier" },
     ["@variable"] = { fg = colors.green },
     ["@variable.builtin"] = { fg = colors.green },
