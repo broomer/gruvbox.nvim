@@ -1131,7 +1131,7 @@ local function get_groups()
     ["@storageclass"] = { link = "StorageClass" },
     ["@attribute"] = { link = "PreProc" },
     ["@field"] = { link = "Identifier" },
-    ["@property"] = { link = "Identifier" },
+    -- ["@property"] = { link = "Identifier" },
     ["@variable"] = { fg = colors.green },
     ["@variable.builtin"] = { fg = colors.green },
     ["@variable.member"] = { fg = colors.red },
