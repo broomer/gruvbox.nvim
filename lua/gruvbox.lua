@@ -124,7 +124,7 @@ Gruvbox.palette = {
   light_aqua_hard = "#e6e9c1",
   light_aqua = "#e8e5b5",
   light_aqua_soft = "#e1dbac",
-  gray = "#928374",
+  gray = "pink",
 }
 
 -- get a hex list of gruvbox colors based on current bg and constrast config
