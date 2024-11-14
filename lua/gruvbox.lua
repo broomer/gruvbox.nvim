@@ -1125,7 +1125,7 @@ local function get_groups()
     ["@include"] = { link = "Include" },
     ["@exception"] = { link = "Exception" },
     ["@type"] = { link = "Type" },
-    ["@type.builtin"] = { link = "Type" },
+    ["@type.builtin"] = { fg = colors.blue },
     ["@type.definition"] = { link = "Typedef" },
     ["@type.qualifier"] = { link = "Type" },
     ["@storageclass"] = { link = "StorageClass" },
